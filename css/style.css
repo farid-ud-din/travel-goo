@@ -33,6 +33,12 @@ body {
   position: absolute;
 }
 
+ul a {
+  font-size: 20px;
+  text-decoration: none;
+  color: var(--white);
+}
+
 .star {
   height: 33px;
   color: orangered;
@@ -49,7 +55,7 @@ body {
 }
 
 .header-p {
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .discover-btn {
