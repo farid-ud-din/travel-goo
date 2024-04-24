@@ -34,12 +34,12 @@ body {
 }
 
 .star {
-  font-size: 33px;
+  height: 33px;
   color: orangered;
 }
 
 .profile {
-  font-size: 40px;
+  height: 40px;
   color: var(--white);
 }
 
