@@ -1,0 +1,61 @@
+:root {
+  --white: #ffffff;
+  --green1: #00a651;
+  --green2: #005f15;
+  --grey: #666666;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url(../fonts/OpenSans.ttf);
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.hero {
+  background-image: url("../images/hero-img.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+  height: 150vh;
+  position: relative;
+}
+
+.rect {
+  background-image: url("../images/rect.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+  height: 150vh;
+  z-index: -1;
+  position: absolute;
+}
+
+.star {
+  font-size: 33px;
+  color: orangered;
+}
+
+.profile {
+  font-size: 40px;
+  color: var(--white);
+}
+
+.header-title {
+  font-weight: 900;
+  font-size: 60px;
+}
+
+.header-p {
+  font-size: 20px;
+}
+
+.discover-btn {
+  background: var(--green1);
+}
+
+.discover-btn:hover {
+  background: var(--green2);
+}
