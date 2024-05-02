@@ -19,22 +19,29 @@
   </head>
   <body>
     <!-- HEADER START -->
-    <div class="container-fluid hero text-light">
+    <div class="container-fluid hero">
       <div class="row">
         <div
           class="col-11 mx-auto max-width py-4 d-flex justify-content-between align-items-center"
         >
-          <div class="logo"><img src="./images/logo.svg" alt="logo" /></div>
-          <ul class="nav">
-            <a href="#">Home</a>
-            <a href="#" class="mx-5">About Us</a>
-            <a href="#">Packages</a>
+          <a href="#"><img src="./images/logo.svg" alt="logo" /></a>
+
+          <ul class="travelNav">
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">About Us</a>
+            </li>
+            <li>
+              <a href="#">Packages</a>
+            </li>
           </ul>
-          <div class="d-flex justify-content-center align-items-center">
-            <button class="star bg-transparent border-0">
+          <div>
+            <button class="star bg-transparent mr-3 border-0">
               <img src="./images/icons/star.svg" alt="star" />
             </button>
-            <button class="profile bg-transparent mx-3 border-0">
+            <button class="profile bg-transparent border-0">
               <img src="./images/icons/profile.svg" alt="profile" />
             </button>
           </div>
@@ -42,23 +49,129 @@
       </div>
       <div class="row">
         <div
-          class="col-11 mx-auto max-width py-4 mt-5 pt-5 d-flex flex-column align-items-center justify-content-center"
+          class="col-11 mx-auto bannerWrapper max-width text-center d-flex align-items-center justify-content-center"
         >
-          <h1 class="header-title mt-5">Your Imagination Is</h1>
-          <h1 class="header-title">Your Only Limit</h1>
-          <p class="header-p mt-5 m-0">
-            We always try to make our customer Happy. We provide all kind of
-            facilities.
-          </p>
-          <p class="header-p">Your satisfaction is our main priority.</p>
-          <button
-            class="discover-btn border-0 mt-3 px-4 py-2 rounded-2 text-light"
-          >
-            Discover more
-          </button>
+          <div>
+            <h1 class="header-title mt-5">Your Imagination Is</h1>
+            <h1 class="header-title">Your Only Limit</h1>
+            <p class="header-p mt-5 mb-0">
+              We always try to make our customer Happy. We provide all kind of
+              facilities.
+            </p>
+            <p class="header-p">Your satisfaction is our main priority.</p>
+            <button
+              class="discover-btn border-0 mt-3 px-4 py-2 rounded-2 text-light"
+            >
+              Discover more
+            </button>
+          </div>
         </div>
       </div>
     </div>
+    <!-- HEADER END -->
+
+    <!-- _________________________________________________________________________________ -->
+
+    <!-- SERVICE START -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-11 mx-auto max-width py-4">
+          <h2 class="fw-bold text-center mt-5">Our Service</h2>
+        </div>
+        <div
+          class="col-11 mx-auto max-width py-4 mb-5 d-flex justify-content-between"
+        >
+          <div class="card1 p-4">
+            <i class="bi bi-ticket-perforated"></i>
+            <h4 class="mt-4 mb-3 fw-bold">Ticket Booking</h4>
+            <p>
+              We book all kinds of national and international ticket for your
+              destination.
+            </p>
+          </div>
+          <div class="card2 p-4">
+            <img src="./images/icons/hotel.svg" alt="hotel-icon" />
+            <h4 class="mt-5 mb-3 fw-bold">Hotel Booking</h4>
+            <p>You can easily book your hotel in your budget from here.</p>
+          </div>
+          <div class="card1 p-4">
+            <img src="./images/icons/click.svg" alt="tour-icon" />
+            <h4 class="mt-5 mb-3 fw-bold">Tour Plan</h4>
+            <p>
+              We provide you the best plan within a short time to explore more.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- SERVICE END -->
+
+    <!-- _________________________________________________________________________________ -->
+
+    <!-- RATINGS START -->
+
+    <div class="container-fluid rating-bg">
+      <div class="row">
+        <div class="col-11 mx-auto max-width py-4"></div>
+        <div class="col-11 mx-auto max-width py-4 hero2">
+          <h2 class="fw-bold text-center">We always try to give you</h2>
+          <h2 class="fw-bold text-center">the best service.</h2>
+          <p class="mt-4 mb-0 text-center">
+            We always try to make our customer Happy. We provide all kind of
+            facilities.
+          </p>
+          <p class="text-center">Your satisfaction is our main priority.</p>
+          <div class="mt-5 px-5 d-flex justify-content-between">
+            <div class="ratingCard">
+              <img
+                src="./images/icons/calendar.svg"
+                alt="calendar-icon"
+                class="mt-5"
+              />
+              <h1 class="mt-4 fw-bold ratingHeading">15+</h1>
+              <p class="ratingPara m-0">Years of Experience</p>
+            </div>
+            <div class="ratingCard">
+              <img
+                src="./images/icons/barchart.svg"
+                alt="barchart-icon"
+                class="mt-5"
+              />
+              <h1 class="mt-4 fw-bold ratingHeading">15k+</h1>
+              <p class="ratingPara m-0">Happy Travellers</p>
+            </div>
+            <div class="ratingCard">
+              <img src="./images/icons/map.svg" alt="map-icon" class="mt-5" />
+              <h1 class="mt-4 fw-bold ratingHeading">650+</h1>
+              <p class="ratingPara m-0">Places Visited</p>
+            </div>
+            <div class="ratingCard">
+              <img
+                src="./images/icons/history.svg"
+                alt="history-icon"
+                class="mt-5"
+              />
+              <h1 class="mt-4 fw-bold ratingHeading">2k+</h1>
+              <p class="ratingPara m-0">Travel History</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-11 mx-auto max-width py-4"></div>
+      </div>
+    </div>
+
+    <!-- RATINGS END -->
+
+    <!-- _________________________________________________________________________________ -->
+
+    <!--  START -->
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-11 mx-auto max-width py-4"></div>
+      </div>
+    </div>
+
     <script src="./js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

@@ -3,6 +3,7 @@
   --green1: #00a651;
   --green2: #005f15;
   --grey: #666666;
+  --grey2: #f9f9f9;
 }
 
 @font-face {
@@ -14,23 +15,36 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-.hero {
-  background-image: url("../images/hero-img.png");
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  background-size: cover;
-  height: 150vh;
-  position: relative;
+/* HEADER STARTS  */
+
+.max-width {
+  max-width: 1400px;
 }
 
-.rect {
-  background-image: url("../images/rect.png");
+.hero {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5) 100%,
+      rgba(255, 255, 255, 0.5) 0%
+    ),
+    url("../images/hero-img.png");
   background-repeat: no-repeat;
   background-position: 0 0;
   background-size: cover;
-  height: 150vh;
-  z-index: -1;
-  position: absolute;
+  min-height: 100vh;
+}
+
+.travelNav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+.travelNav li {
+  text-decoration: none;
+  list-style: none;
+  margin: 0 20px;
 }
 
 ul a {
@@ -39,23 +53,31 @@ ul a {
   color: var(--white);
 }
 
-.star {
-  height: 33px;
+.star img {
+  max-width: 33px;
   color: orangered;
+  object-fit: contain;
 }
 
-.profile {
-  height: 40px;
+.profile img {
+  max-width: 40px;
   color: var(--white);
+  object-fit: contain;
+}
+
+.bannerWrapper {
+  min-height: calc(100vh - 110px);
 }
 
 .header-title {
   font-weight: 900;
   font-size: 60px;
+  color: var(--white);
 }
 
 .header-p {
   font-size: 16px;
+  color: var(--white);
 }
 
 .discover-btn {
@@ -64,4 +86,73 @@ ul a {
 
 .discover-btn:hover {
   background: var(--green2);
+}
+
+/* HEADER ENDS  */
+
+/* ________________________________________________________ */
+
+/* SERVICES START  */
+
+.card1 {
+  outline: none;
+  border: none;
+  max-width: 416px;
+  background: var(--grey2);
+  border-radius: 10px;
+}
+
+.card1:hover {
+  outline: 3px solid gray;
+}
+
+.card2 {
+  outline: none;
+  border: none;
+  max-width: 416px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
+}
+
+.card2:hover {
+  outline: 3px solid gray;
+}
+
+.card1 i {
+  font-size: 40px;
+  color: var(--green1);
+}
+
+.hero2 {
+  background-image: url("../images/map-1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  min-height: 500px;
+}
+
+.rating-bg {
+  background-color: rgb(0, 88, 83, 0.05);
+}
+
+.ratingCard {
+  outline: none;
+  border: none;
+  min-width: 250px;
+  min-height: 250px;
+  border-radius: 10px;
+  background: var(--white);
+  text-align: center;
+}
+
+.ratingCard img {
+  max-height: 43px;
+}
+
+.ratingHeading {
+  font-size: 36px;
+}
+
+.ratingPara {
+  font-size: 20px;
 }
