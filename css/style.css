@@ -88,6 +88,19 @@ ul a {
   background: var(--green2);
 }
 
+@media only screen and (max-width: 768px) {
+  .header-title {
+    font-weight: 900;
+    font-size: 36px;
+    color: var(--white);
+  }
+
+  .header-p {
+    font-size: 14px;
+    color: var(--white);
+  }
+}
+
 /* HEADER ENDS  */
 
 /* ________________________________________________________ */
