@@ -245,6 +245,10 @@ p {
 
 /* Best Packages START  */
 
+.bestP {
+  background: #ecf1f0;
+}
+
 .dealLinks {
   text-decoration: none;
   background: var(--grey);
