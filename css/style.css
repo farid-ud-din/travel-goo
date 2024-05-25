@@ -53,6 +53,10 @@ ul a {
   color: var(--white);
 }
 
+ul a:hover {
+  text-decoration: underline;
+}
+
 .star img {
   max-width: 33px;
   color: orangered;
@@ -172,4 +176,87 @@ ul a {
 
 /* ________________________________________________________ */
 
-/*   START  */
+/* POPULAR DESTINATIONS START  */
+
+.hero3 {
+  background-image: url("../images/map-2.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 680px;
+  position: relative;
+  left: -75px;
+}
+
+.dot {
+  background-color: dodgerblue;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 3px solid var(--white);
+  outline: 1px solid black;
+}
+
+.dot1 {
+  position: relative;
+  left: 325px;
+  top: 340px;
+}
+
+.dot2 {
+  position: relative;
+  left: 415px;
+  top: 410px;
+}
+
+.dot3 {
+  position: relative;
+  left: 575px;
+  top: 575px;
+}
+
+.dCard {
+  border-radius: 16px;
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.1);
+}
+
+.dCard h6,
+p {
+  font-size: 16px;
+}
+
+.imgD {
+  max-width: 180px;
+}
+
+@media only screen and (max-width: 768px) {
+  .imgD {
+    max-width: 100px;
+  }
+
+  .dCard h6,
+  p {
+    font-size: 12px;
+  }
+}
+
+/* POPULAR DESTINATIONS ENDS  */
+
+/* ________________________________________________________ */
+
+/* Best Packages START  */
+
+.dealLinks {
+  text-decoration: none;
+  background: var(--grey);
+  color: var(--white);
+}
+
+.dealLinks:hover {
+  background: var(--green1);
+}
+
+/*  Best Packages ENDS  */
+
+/* ________________________________________________________ */
+
+/* START  */
