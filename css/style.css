@@ -272,6 +272,24 @@ p {
   max-width: 400px;
 }
 
+.imgP2 {
+  background-image: url(../images/japan.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 450px;
+  max-width: 400px;
+}
+
+.imgP3 {
+  background-image: url(../images/mountains.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 450px;
+  max-width: 400px;
+}
+
 .pkgDetails {
   background: var(--white);
   margin-top: -120px;
