@@ -315,11 +315,17 @@ p {
   padding: 25px;
   max-width: 370px;
   border-radius: 26px;
-  box-shadow: 104px -76px 99px -55px rgba(64, 166, 228, 0.75);
+  box-shadow: 104px -76px 99px -55px rgba(64, 166, 228, 0.75),
+    0px 0px 11px -7px rgba(0, 0, 0, 0.75);
 }
 
 .bookCardImg {
   border-radius: 26px;
+}
+
+.bookCardImg2 {
+  height: 50px;
+  width: 50px;
 }
 
 .bookCardP {
@@ -332,6 +338,24 @@ p {
   width: 40px;
   border-radius: 50%;
 }
+
+.bookCard2 {
+  max-width: 220px;
+}
+
+.bookCard2 span {
+  color: #8a79df;
+}
+
+.progress {
+  height: 5px;
+}
+
+.progress-bar {
+  width: 40%;
+  background: #8a79df;
+}
+
 /* BOOK YOUR NEXT TRIP ENDS  */
 
 /* ________________________________________________________ */
