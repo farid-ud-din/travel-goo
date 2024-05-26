@@ -302,8 +302,13 @@ p {
 /* BOOK YOUR NEXT TRIP START  */
 
 .step-icon {
-  width: 65px;
-  height: 65px;
+  width: 70px;
+  height: 70px;
+}
+
+.bookP {
+  max-width: 307px;
+  font-size: 16px;
 }
 
 /* BOOK YOUR NEXT TRIP ENDS  */
