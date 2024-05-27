@@ -9,6 +9,9 @@
 @font-face {
   font-family: "Open Sans";
   src: url(../fonts/OpenSans.ttf);
+
+  font-family: "Poppins";
+  src: url(../fonts/Poppins-Regular.ttf);
 }
 
 body {
@@ -392,6 +395,33 @@ p {
 }
 
 /* BOOK YOUR NEXT TRIP ENDS  */
+
+/* ________________________________________________________ */
+
+/* WHAT PEOPLE SAY START  */
+
+.whatPeoplesay {
+  background: #ecf1f0;
+  font-family: poppins;
+}
+
+.boy {
+  width: 148px;
+  position: relative;
+  bottom: 290px;
+}
+
+.whatPCard {
+  background: var(--white);
+  max-width: 738px;
+  margin-top: -350px;
+}
+
+.whatP {
+  font-size: 20px;
+}
+
+/* WHAT PEOPLE SAY ENDS  */
 
 /* ________________________________________________________ */
 
