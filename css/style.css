@@ -466,16 +466,15 @@ p {
 }
 
 .mailIcon {
-  position: relative;
-  top: 39px;
-  right: 260px;
+  background: var(--white);
+  border-radius: 10px 0px 0px 10px;
 }
 
 .emailInput {
   width: 421px;
   border: none;
   outline: none;
-  border-radius: 10px;
+  border-radius: 0px 10px 10px 0px;
 }
 
 .emailInput:hover {
@@ -487,12 +486,6 @@ p {
     color: var(--grey);
     font-size: 22px;
   }
-
-  .mailIcon {
-    position: relative;
-    top: 39px;
-    right: 180px;
-  }
 }
 
 @media only screen and (max-width: 425px) {
@@ -501,12 +494,6 @@ p {
     border: none;
     outline: none;
     border-radius: 10px;
-  }
-
-  .mailIcon {
-    position: relative;
-    top: 39px;
-    right: 118px;
   }
 }
 

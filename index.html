@@ -636,22 +636,28 @@
         <div
           class="mx-auto max-width my-5 py-4 text-center d-flex justify-content-center"
         >
-          <div class="emailCard p-5">
+          <div class="emailCard p-5 px-md-5 px-3">
             <h4 class="text-center fw-semibold emailP px-5 mt-4">
               Subscribe to get information, latest news and other interesting
               offers about Cobham.
             </h4>
-            <form class="mt-5">
-              <div class="mailIcon">
-                <img src="./images/icons/mail-icon.svg" alt="" />
+            <form
+              class="mt-5 mb-4 d-flex flex-md-row flex-column justify-content-center align-items-center"
+            >
+              <div class="mx-3 d-flex align-items-center">
+                <div class="mailIcon p-3">
+                  <img src="./images/icons/mail-icon.svg" alt="" class="" />
+                </div>
+                <div>
+                  <input
+                    type="email"
+                    class="emailInput pt-3 pb-3"
+                    placeholder="Your email"
+                  />
+                </div>
               </div>
-              <input
-                type="email"
-                class="emailInput p-3 px-5 mx-3"
-                placeholder="  Your email"
-              />
               <button
-                class="discover-btn border-0 mb-5 mt-lg-0 mt-5 px-5 py-3 rounded-2 fw-semibold text-light"
+                class="discover-btn mt-md-0 mt-5 border-0 px-5 py-3 rounded-2 fw-semibold text-light"
               >
                 Subscribe
               </button>
