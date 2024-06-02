@@ -477,10 +477,6 @@ p {
   border-radius: 0px 10px 10px 0px;
 }
 
-.emailInput:hover {
-  outline: 2px solid var(--green1);
-}
-
 @media only screen and (max-width: 768px) {
   .emailP {
     color: var(--grey);
@@ -498,6 +494,74 @@ p {
 }
 
 /* NEWS LETTER ENDS  */
+
+/* ________________________________________________________ */
+
+/* FOOTER START  */
+
+.footerLogo {
+  height: 77px;
+}
+
+.footerP {
+  font-size: 13px;
+  color: var(--grey);
+}
+
+.footerLinks h6 {
+  font-size: 21px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.footerLinks a {
+  text-decoration: none;
+  color: var(--grey);
+  font-size: 18px;
+}
+
+.footerLinks a:hover {
+  color: var(--green1);
+}
+
+.sociaIcons i {
+  font-size: 23px;
+}
+
+.sociaIcons div {
+  border-radius: 50%;
+  padding: 9px 15px;
+  box-shadow: 0px 0px 11px -5px rgba(0, 0, 0, 1);
+}
+
+.fb:hover {
+  background-color: #0863f7;
+
+  color: white;
+}
+
+.ig:hover {
+  background: linear-gradient(
+    210deg,
+    #405de6 0%,
+    #5851db 25%,
+    #833ab4 50%,
+    #c13584 75%,
+    #e1306c 100%
+  );
+  color: white;
+}
+
+.twitt:hover {
+  background-color: black;
+  color: white;
+}
+
+.discoverApp p {
+  color: var(--grey);
+}
+
+/* FOOTER ENDS  */
 
 /* ________________________________________________________ */
 
