@@ -380,17 +380,24 @@ p {
     left: 150px;
     bottom: 165px;
   }
-}
 
-@media only screen and (max-width: 425px) {
-  .bookCard2 {
-    max-width: 223px;
-    background: var(--white);
-    box-shadow: 0px 0px 11px -7px rgba(0, 0, 0, 0.75);
-    border-radius: 18px;
-    position: relative;
-    left: 100px;
-    bottom: 165px;
+  @media only screen and (max-width: 425px) {
+    .bookCard2 {
+      max-width: 223px;
+      background: var(--white);
+      box-shadow: 0px 0px 11px -7px rgba(0, 0, 0, 0.75);
+      border-radius: 18px;
+      position: relative;
+      left: 100px;
+      bottom: 165px;
+    }
+
+    .bookCard1 {
+      padding: 25px;
+      max-width: 370px;
+      border-radius: 26px;
+      box-shadow: 0px 0px 11px -7px rgba(0, 0, 0, 0.75);
+    }
   }
 }
 
@@ -456,6 +463,51 @@ p {
 .emailP {
   color: var(--grey);
   font-size: 33px;
+}
+
+.mailIcon {
+  position: relative;
+  top: 39px;
+  right: 260px;
+}
+
+.emailInput {
+  width: 421px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+
+.emailInput:hover {
+  outline: 2px solid var(--green1);
+}
+
+@media only screen and (max-width: 768px) {
+  .emailP {
+    color: var(--grey);
+    font-size: 22px;
+  }
+
+  .mailIcon {
+    position: relative;
+    top: 39px;
+    right: 180px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .emailInput {
+    width: 300px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+  }
+
+  .mailIcon {
+    position: relative;
+    top: 39px;
+    right: 118px;
+  }
 }
 
 /* NEWS LETTER ENDS  */
