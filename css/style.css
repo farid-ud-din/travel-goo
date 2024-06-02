@@ -447,6 +447,17 @@ p {
 
 /* NEWS LETTER START  */
 
+.emailCard {
+  background: #ecfffb;
+  border-radius: 129px 20px 20px 20px;
+  max-width: 1170px;
+}
+
+.emailP {
+  color: var(--grey);
+  font-size: 33px;
+}
+
 /* NEWS LETTER ENDS  */
 
 /* ________________________________________________________ */
